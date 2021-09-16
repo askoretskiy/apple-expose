@@ -1,3 +1,268 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "iphoneOrig",
+      "name": "iPhone (orig)",
+      "version": "(orig)",
+      "generation": 1,
+      "specUrl": "https://support.apple.com/kb/SP2",
+      "presentYear": 2007
+    },
+    {
+      "id": "iphone3g",
+      "name": "iPhone 3G",
+      "version": "3G",
+      "generation": 2,
+      "specUrl": "https://support.apple.com/kb/SP495",
+      "presentYear": 2008
+    },
+    {
+      "id": "iphone3gs",
+      "name": "iPhone 3GS",
+      "version": "3GS",
+      "generation": 3,
+      "specUrl": "https://support.apple.com/kb/SP565",
+      "presentYear": 2009
+    },
+    {
+      "id": "iphone4",
+      "name": "iPhone 4",
+      "version": "4",
+      "generation": 4,
+      "specUrl": "https://support.apple.com/kb/SP587",
+      "presentYear": 2010
+    },
+    {
+      "id": "iphone4s",
+      "name": "iPhone 4s",
+      "version": "4s",
+      "generation": 5,
+      "specUrl": "https://support.apple.com/kb/SP643",
+      "presentYear": 2011
+    },
+    {
+      "id": "iphone5",
+      "name": "iPhone 5",
+      "version": "5",
+      "generation": 6,
+      "specUrl": "https://support.apple.com/kb/SP655",
+      "presentYear": 2012
+    },
+    {
+      "id": "iphone5c",
+      "name": "iPhone 5c",
+      "version": "5c",
+      "generation": null,
+      "specUrl": "https://support.apple.com/kb/SP684",
+      "presentYear": 2013
+    },
+    {
+      "id": "iphone5s",
+      "name": "iPhone 5s",
+      "version": "5s",
+      "generation": 7,
+      "specUrl": "https://support.applse.com/kb/SP685",
+      "presentYear": 2013
+    },
+    {
+      "id": "iphone6",
+      "name": "iPhone 6",
+      "version": "6",
+      "generation": 8,
+      "specUrl": "https://support.apple.com/kb/SP705",
+      "presentYear": 2014
+    },
+    {
+      "id": "iphone6plus",
+      "name": "iPhone 6 Plus",
+      "version": "6 Plus",
+      "generation": 8,
+      "specUrl": "https://support.apple.com/kb/SP706",
+      "presentYear": 2014
+    },
+    {
+      "id": "iphone6s",
+      "name": "iPhone 6s",
+      "version": "6s",
+      "generation": 9,
+      "specUrl": "https://support.apple.com/kb/SP726",
+      "presentYear": 2015
+    },
+    {
+      "id": "iphone6splus",
+      "name": "iPhone 6s Plus",
+      "version": "6s Plus",
+      "generation": 9,
+      "specUrl": "https://support.apple.com/kb/SP727",
+      "presentYear": 2015
+    },
+    {
+      "id": "iphoneSe1",
+      "name": "iPhone SE(1)",
+      "version": "SE(1)",
+      "generation": null,
+      "specUrl": "https://support.apple.com/kb/SP738",
+      "presentYear": 2016
+    },
+    {
+      "id": "iphone7",
+      "name": "iPhone 7",
+      "version": "7",
+      "generation": 10,
+      "specUrl": "https://support.apple.com/kb/SP743",
+      "presentYear": 2016
+    },
+    {
+      "id": "iphone7plus",
+      "name": "iPhone 7 Plus",
+      "version": "7 Plus",
+      "generation": 10,
+      "specUrl": "https://support.apple.com/kb/SP744",
+      "presentYear": 2016
+    },
+    {
+      "id": "iphone8",
+      "name": "iPhone 8",
+      "version": "8",
+      "generation": 11,
+      "specUrl": "https://support.apple.com/kb/SP767",
+      "presentYear": 2017
+    },
+    {
+      "id": "iphone8plus",
+      "name": "iPhone 8 Plus",
+      "version": "8 Plus",
+      "generation": 11,
+      "specUrl": "https://support.apple.com/kb/SP768",
+      "presentYear": 2017
+    },
+    {
+      "id": "iphoneX",
+      "name": "iPhone X",
+      "version": "X",
+      "generation": 11,
+      "specUrl": "https://support.apple.com/kb/SP770",
+      "presentYear": 2017
+    },
+    {
+      "id": "iphoneXR",
+      "name": "iPhone XR",
+      "version": "XR",
+      "generation": 12,
+      "specUrl": "https://support.apple.com/kb/SP781",
+      "presentYear": 2018
+    },
+    {
+      "id": "iphoneXS",
+      "name": "iPhone XS",
+      "version": "XS",
+      "generation": 12,
+      "specUrl": "https://support.apple.com/kb/SP779",
+      "presentYear": 2018
+    },
+    {
+      "id": "iphoneXSMax",
+      "name": "iPhone XS Max",
+      "version": "XS Max",
+      "generation": 12,
+      "specUrl": "https://support.apple.com/kb/SP780",
+      "presentYear": 2018
+    },
+    {
+      "id": "iphone11",
+      "name": "iPhone 11",
+      "version": "11",
+      "generation": 13,
+      "specUrl": "https://support.apple.com/kb/SP804",
+      "presentYear": 2019
+    },
+    {
+      "id": "iphone11Pro",
+      "name": "iPhone 11 Pro",
+      "version": "11 Pro",
+      "generation": 13,
+      "specUrl": "https://support.apple.com/kb/SP805",
+      "presentYear": 2019
+    },
+    {
+      "id": "iphone11ProMax",
+      "name": "iPhone 11 Pro Max",
+      "version": "11 Pro Max",
+      "generation": 13,
+      "specUrl": "https://support.apple.com/kb/SP806",
+      "presentYear": 2019
+    },
+    {
+      "id": "iphoneSe2",
+      "name": "iPhone SE (2)",
+      "version": "SE (2)",
+      "generation": null,
+      "specUrl": "https://support.apple.com/kb/SP820",
+      "presentYear": 2020
+    },
+    {
+      "id": "iphone12Mini",
+      "name": "iPhone 12 Mini",
+      "version": "12 Mini",
+      "generation": 14,
+      "specUrl": "https://support.apple.com/kb/SP829",
+      "presentYear": 2020
+    },
+    {
+      "id": "iphone12",
+      "name": "iPhone 12",
+      "version": "12",
+      "generation": 14,
+      "specUrl": "https://support.apple.com/kb/SP830",
+      "presentYear": 2020
+    },
+    {
+      "id": "iphone12Pro",
+      "name": "iPhone 12 Pro",
+      "version": "12 Pro",
+      "generation": 14,
+      "specUrl": "https://support.apple.com/kb/SP831",
+      "presentYear": 2020
+    },
+    {
+      "id": "iphone12ProMax",
+      "name": "iPhone 12 Pro Max",
+      "version": "12 Pro Max",
+      "generation": 14,
+      "specUrl": "https://support.apple.com/kb/SP832",
+      "presentYear": 2020
+    },
+    {
+      "id": "iphone13Mini",
+      "name": "iPhone 13 Mini",
+      "version": "13 Mini",
+      "generation": 15,
+      "specUrl": "https://www.apple.com/iphone-13/specs/",
+      "presentYear": 2021
+    },
+    {
+      "id": "iphone13",
+      "name": "iPhone 13",
+      "version": "13",
+      "generation": 15,
+      "specUrl": "https://www.apple.com/iphone-13/specs/",
+      "presentYear": 2021
+    },
+    {
+      "id": "iphone13Pro",
+      "name": "iPhone 13 Pro",
+      "version": "13 Pro",
+      "generation": 15,
+      "specUrl": "https://www.apple.com/iphone-13-pro/specs/",
+      "presentYear": 2021
+    },
+    {
+      "id": "iphone13ProMax",
+      "name": "iPhone 13 Pro Max",
+      "version": "13 Pro Max",
+      "generation": 15,
+      "specUrl": "https://www.apple.com/iphone-13-pro/specs/",
+      "presentYear": 2021
+    }
+  ]
 }
