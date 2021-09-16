@@ -1,7 +1,17 @@
 import React from "react";
+import { Shelf } from "./Shelf";
+import { Data } from "../types/data";
+
 import "../css/App.css";
 import "normalize.css";
 
-export const App = () => (
-    <h1>Apple Expose</h1>
+export const App = ({ data }: { data: Data }) => (
+  <>
+    <header>
+      <h1>Apple Expose</h1>
+    </header>
+    <main>
+      <Shelf data={data} />
+    </main>
+  </>
 );
