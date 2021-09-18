@@ -10,4 +10,5 @@ export interface Item {
   // See https://support.apple.com/en-us/HT201296
   specUrl: string;
   presentYear: number;
+  screenDiagonalInch: number;
 }
