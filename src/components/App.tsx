@@ -4,6 +4,7 @@ import { Data } from "../types/data";
 
 import "../css/App.css";
 import "normalize.css";
+import "roboto-fontface/css/roboto/roboto-fontface.css";
 
 export const App = ({ data }: { data: Data }) => (
   <>

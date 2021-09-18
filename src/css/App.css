@@ -1,3 +1,7 @@
+body {
+  padding: 0rem 1rem;
+}
+
 .external-link {
   height: 0.75em;
   width: 0.75em;
@@ -10,13 +14,6 @@
     brightness(99%) contrast(107%);
 }
 
-.shelf {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.shelf div {
-  margin: 0.5em;
+.shelf-item {
   padding: 0.25em 0.5em;
-  border: solid 1px black;
 }
