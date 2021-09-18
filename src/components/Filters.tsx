@@ -10,10 +10,10 @@ const Fields = {
 
 export const Filters = ({
   fields,
-  setFields,
+  toggleField,
 }: {
   fields: Set<string>;
-  setFields: (fields: Set<string>) => void;
+  toggleField: (field: string) => void;
 }) => (
   <FormGroup>
     {Object.entries(Fields).map(([field, label]) => (
@@ -22,7 +22,7 @@ export const Filters = ({
         field={field}
         label={label}
         fields={fields}
-        setFields={setFields}
+        toggleField={toggleField}
       />
     ))}
   </FormGroup>
@@ -32,31 +32,20 @@ const FilterRow = ({
   field,
   label,
   fields,
-  setFields,
+  toggleField,
 }: {
   field: string;
   label: string;
   fields: Set<string>;
-  setFields: (fields: Set<string>) => void;
-}) => {
-  const checked = fields.has(field);
-  return (
-    <FormControlLabel
-      control={
-        <Checkbox
-          checked={checked}
-          onClick={() => {
-            const newFields = new Set(fields);
-            if (checked) {
-              newFields.delete(field);
-            } else {
-              newFields.add(field);
-            }
-            setFields(newFields);
-          }}
-        />
-      }
-      label={label}
-    />
-  );
-};
+  toggleField: (field: string) => void;
+}) => (
+  <FormControlLabel
+    control={
+      <Checkbox
+        checked={fields.has(field)}
+        onClick={() => toggleField(field)}
+      />
+    }
+    label={label}
+  />
+);
