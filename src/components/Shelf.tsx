@@ -36,6 +36,12 @@ const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
           gen. {item.generation}
         </>
       )}
+      {!fields.has("screenDiagonalInch") ? null : (
+        <>
+          <br />
+          {item.screenDiagonalInch}"
+        </>
+      )}
     </Paper>
   </Grid>
 );

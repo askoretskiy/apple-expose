@@ -6,6 +6,7 @@ import Checkbox from "@mui/material/Checkbox";
 const Fields = {
   generation: "Generation",
   presentYear: "Year",
+  screenDiagonalInch: "Screen",
 };
 
 export const Filters = ({
