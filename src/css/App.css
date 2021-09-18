@@ -10,8 +10,14 @@
     brightness(99%) contrast(107%);
 }
 
-.shelf-new div {
+.shelf {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shelf div {
   margin: 0.5em;
+  padding: 0.25em 0.5em;
 }
 
 :root {
