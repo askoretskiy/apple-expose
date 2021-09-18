@@ -8,7 +8,7 @@ import "normalize.css";
 import "roboto-fontface/css/roboto/roboto-fontface.css";
 
 export const App = ({ data }: { data: Data }) => {
-  const [fields, setFields] = useState<string[]>([]);
+  const [fields, setFields] = useState<Set<string>>(new Set());
   return (
     <>
       <header>

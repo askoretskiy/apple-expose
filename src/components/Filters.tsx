@@ -12,8 +12,8 @@ export const Filters = ({
   fields,
   setFields,
 }: {
-  fields: string[];
-  setFields: (fields: string[]) => void;
+  fields: Set<string>;
+  setFields: (fields: Set<string>) => void;
 }) => (
   <FormGroup>
     {Object.entries(Fields).map(([field, label]) => (
@@ -36,24 +36,23 @@ const FilterRow = ({
 }: {
   field: string;
   label: string;
-  fields: string[];
-  setFields: (fields: string[]) => void;
+  fields: Set<string>;
+  setFields: (fields: Set<string>) => void;
 }) => {
-  const index = fields.indexOf(field);
-  const checked = index > -1;
+  const checked = fields.has(field);
   return (
     <FormControlLabel
       control={
         <Checkbox
           checked={checked}
           onClick={() => {
+            const newFields = new Set(fields);
             if (checked) {
-              const newFields = [...fields];
-              newFields.splice(index, 1);
-              setFields(newFields);
+              newFields.delete(field);
             } else {
-              setFields([...fields, field]);
+              newFields.add(field);
             }
+            setFields(newFields);
           }}
         />
       }
