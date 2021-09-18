@@ -4,9 +4,6 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 
-import "../css/App.css";
-import ExternalLink from "../img/external-link.svg";
-
 export const Shelf = ({ data }: { data: Data }) => (
   <Box sx={{ flexGrow: 1 }}>
     <Grid container spacing={2}>
