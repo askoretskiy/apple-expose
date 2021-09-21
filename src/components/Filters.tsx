@@ -4,8 +4,8 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 
 const Fields = {
-  generation: "Generation",
   presentYear: "Year",
+  generation: "Generation",
   screenDiagonalInch: "Screen",
 };
 
@@ -43,6 +43,7 @@ const FilterRow = ({
   <FormControlLabel
     control={
       <Checkbox
+        size="small"
         checked={fields.has(field)}
         onClick={() => toggleField(field)}
       />

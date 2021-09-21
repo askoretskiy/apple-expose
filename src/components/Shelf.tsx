@@ -3,6 +3,7 @@ import { Data, Item } from "../types/data";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
+import Chip from "@mui/material/Chip";
 
 export const Shelf = ({
   data,
@@ -20,28 +21,34 @@ export const Shelf = ({
   </Box>
 );
 
+const getItemChips = ({
+  item,
+  fields,
+}: {
+  item: Item;
+  fields: Set<string>;
+}): string[] => {
+  const result = [];
+  if (fields.has("presentYear")) {
+    result.push(String(item.presentYear));
+  }
+  if (fields.has("generation") && item.generation !== null) {
+    result.push(`gen. ${item.generation}`);
+  }
+  if (fields.has("screenDiagonalInch")) {
+    result.push(`${item.screenDiagonalInch}"`);
+  }
+  return result;
+};
+
 const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
   <Grid item xs={2}>
     <Paper className="shelf-item">
       {item.name}
-      {!fields.has("presentYear") ? null : (
-        <>
-          <br />
-          {item.presentYear}
-        </>
-      )}
-      {!fields.has("generation") ? null : (
-        <>
-          <br />
-          gen. {item.generation}
-        </>
-      )}
-      {!fields.has("screenDiagonalInch") ? null : (
-        <>
-          <br />
-          {item.screenDiagonalInch}"
-        </>
-      )}
+      <br />
+      {getItemChips({ item, fields }).map((label) => (
+        <Chip label={label} size="small" variant="outlined" />
+      ))}
     </Paper>
   </Grid>
 );
