@@ -7,6 +7,7 @@ const Fields = {
   presentYear: "Year",
   generation: "Generation",
   screenDiagonalInch: "Screen",
+  socName: "SoC",
 };
 
 export const Filters = ({

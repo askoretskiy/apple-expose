@@ -7,7 +7,9 @@
       "generation": 1,
       "specUrl": "https://support.apple.com/kb/SP2",
       "presentYear": 2007,
-      "screenDiagonalInch": 3.5
+      "screenDiagonalInch": 3.5,
+      "socName": "S5L8900",
+      "socDesigner": "Samsung"
     },
     {
       "id": "iphone3g",
@@ -16,7 +18,9 @@
       "generation": 2,
       "specUrl": "https://support.apple.com/kb/SP495",
       "presentYear": 2008,
-      "screenDiagonalInch": 3.5
+      "screenDiagonalInch": 3.5,
+      "socName": "S5L8900",
+      "socDesigner": "Samsung"
     },
     {
       "id": "iphone3gs",
@@ -25,7 +29,9 @@
       "generation": 3,
       "specUrl": "https://support.apple.com/kb/SP565",
       "presentYear": 2009,
-      "screenDiagonalInch": 3.5
+      "screenDiagonalInch": 3.5,
+      "socName": "S5L8920",
+      "socDesigner": "Samsung"
     },
     {
       "id": "iphone4",
@@ -34,7 +40,9 @@
       "generation": 4,
       "specUrl": "https://support.apple.com/kb/SP587",
       "presentYear": 2010,
-      "screenDiagonalInch": 3.5
+      "screenDiagonalInch": 3.5,
+      "socName": "A4",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone4s",
@@ -43,7 +51,9 @@
       "generation": 5,
       "specUrl": "https://support.apple.com/kb/SP643",
       "presentYear": 2011,
-      "screenDiagonalInch": 3.5
+      "screenDiagonalInch": 3.5,
+      "socName": "A5",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone5",
@@ -52,7 +62,9 @@
       "generation": 6,
       "specUrl": "https://support.apple.com/kb/SP655",
       "presentYear": 2012,
-      "screenDiagonalInch": 4
+      "screenDiagonalInch": 4,
+      "socName": "A6",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone5c",
@@ -61,7 +73,9 @@
       "generation": null,
       "specUrl": "https://support.apple.com/kb/SP684",
       "presentYear": 2013,
-      "screenDiagonalInch": 4
+      "screenDiagonalInch": 4,
+      "socName": "A6",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone5s",
@@ -70,7 +84,9 @@
       "generation": 7,
       "specUrl": "https://support.applse.com/kb/SP685",
       "presentYear": 2013,
-      "screenDiagonalInch": 4
+      "screenDiagonalInch": 4,
+      "socName": "A7",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone6",
@@ -79,7 +95,9 @@
       "generation": 8,
       "specUrl": "https://support.apple.com/kb/SP705",
       "presentYear": 2014,
-      "screenDiagonalInch": 4.7
+      "screenDiagonalInch": 4.7,
+      "socName": "A8",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone6plus",
@@ -88,7 +106,9 @@
       "generation": 8,
       "specUrl": "https://support.apple.com/kb/SP706",
       "presentYear": 2014,
-      "screenDiagonalInch": 5.5
+      "screenDiagonalInch": 5.5,
+      "socName": "A8",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone6s",
@@ -97,7 +117,9 @@
       "generation": 9,
       "specUrl": "https://support.apple.com/kb/SP726",
       "presentYear": 2015,
-      "screenDiagonalInch": 4.7
+      "screenDiagonalInch": 4.7,
+      "socName": "A9",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone6splus",
@@ -106,7 +128,9 @@
       "generation": 9,
       "specUrl": "https://support.apple.com/kb/SP727",
       "presentYear": 2015,
-      "screenDiagonalInch": 5.5
+      "screenDiagonalInch": 5.5,
+      "socName": "A9",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneSe1",
@@ -115,7 +139,9 @@
       "generation": null,
       "specUrl": "https://support.apple.com/kb/SP738",
       "presentYear": 2016,
-      "screenDiagonalInch": 4
+      "screenDiagonalInch": 4,
+      "socName": "A9",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone7",
@@ -124,7 +150,9 @@
       "generation": 10,
       "specUrl": "https://support.apple.com/kb/SP743",
       "presentYear": 2016,
-      "screenDiagonalInch": 4.7
+      "screenDiagonalInch": 4.7,
+      "socName": "A10",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone7plus",
@@ -133,7 +161,9 @@
       "generation": 10,
       "specUrl": "https://support.apple.com/kb/SP744",
       "presentYear": 2016,
-      "screenDiagonalInch": 5.5
+      "screenDiagonalInch": 5.5,
+      "socName": "A10",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone8",
@@ -142,7 +172,9 @@
       "generation": 11,
       "specUrl": "https://support.apple.com/kb/SP767",
       "presentYear": 2017,
-      "screenDiagonalInch": 4.7
+      "screenDiagonalInch": 4.7,
+      "socName": "A11",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone8plus",
@@ -151,7 +183,9 @@
       "generation": 11,
       "specUrl": "https://support.apple.com/kb/SP768",
       "presentYear": 2017,
-      "screenDiagonalInch": 5.5
+      "screenDiagonalInch": 5.5,
+      "socName": "A11",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneX",
@@ -160,7 +194,9 @@
       "generation": 11,
       "specUrl": "https://support.apple.com/kb/SP770",
       "presentYear": 2017,
-      "screenDiagonalInch": 5.8
+      "screenDiagonalInch": 5.8,
+      "socName": "A11",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneXR",
@@ -169,7 +205,9 @@
       "generation": 12,
       "specUrl": "https://support.apple.com/kb/SP781",
       "presentYear": 2018,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A12",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneXS",
@@ -178,7 +216,9 @@
       "generation": 12,
       "specUrl": "https://support.apple.com/kb/SP779",
       "presentYear": 2018,
-      "screenDiagonalInch": 5.8
+      "screenDiagonalInch": 5.8,
+      "socName": "A12",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneXSMax",
@@ -187,7 +227,9 @@
       "generation": 12,
       "specUrl": "https://support.apple.com/kb/SP780",
       "presentYear": 2018,
-      "screenDiagonalInch": 6.5
+      "screenDiagonalInch": 6.5,
+      "socName": "A12",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone11",
@@ -196,7 +238,9 @@
       "generation": 13,
       "specUrl": "https://support.apple.com/kb/SP804",
       "presentYear": 2019,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A13",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone11Pro",
@@ -205,7 +249,9 @@
       "generation": 13,
       "specUrl": "https://support.apple.com/kb/SP805",
       "presentYear": 2019,
-      "screenDiagonalInch": 5.8
+      "screenDiagonalInch": 5.8,
+      "socName": "A13",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone11ProMax",
@@ -214,7 +260,9 @@
       "generation": 13,
       "specUrl": "https://support.apple.com/kb/SP806",
       "presentYear": 2019,
-      "screenDiagonalInch": 6.5
+      "screenDiagonalInch": 6.5,
+      "socName": "A13",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphoneSe2",
@@ -223,7 +271,9 @@
       "generation": null,
       "specUrl": "https://support.apple.com/kb/SP820",
       "presentYear": 2020,
-      "screenDiagonalInch": 4.7
+      "screenDiagonalInch": 4.7,
+      "socName": "A13",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone12Mini",
@@ -232,7 +282,9 @@
       "generation": 14,
       "specUrl": "https://support.apple.com/kb/SP829",
       "presentYear": 2020,
-      "screenDiagonalInch": 5.4
+      "screenDiagonalInch": 5.4,
+      "socName": "A14",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone12",
@@ -241,7 +293,9 @@
       "generation": 14,
       "specUrl": "https://support.apple.com/kb/SP830",
       "presentYear": 2020,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A14",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone12Pro",
@@ -250,7 +304,9 @@
       "generation": 14,
       "specUrl": "https://support.apple.com/kb/SP831",
       "presentYear": 2020,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A14",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone12ProMax",
@@ -259,7 +315,9 @@
       "generation": 14,
       "specUrl": "https://support.apple.com/kb/SP832",
       "presentYear": 2020,
-      "screenDiagonalInch": 6.7
+      "screenDiagonalInch": 6.7,
+      "socName": "A14",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone13Mini",
@@ -268,7 +326,9 @@
       "generation": 15,
       "specUrl": "https://www.apple.com/iphone-13/specs/",
       "presentYear": 2021,
-      "screenDiagonalInch": 5.4
+      "screenDiagonalInch": 5.4,
+      "socName": "A15",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone13",
@@ -277,7 +337,9 @@
       "generation": 15,
       "specUrl": "https://www.apple.com/iphone-13/specs/",
       "presentYear": 2021,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A15",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone13Pro",
@@ -286,7 +348,9 @@
       "generation": 15,
       "specUrl": "https://www.apple.com/iphone-13-pro/specs/",
       "presentYear": 2021,
-      "screenDiagonalInch": 6.1
+      "screenDiagonalInch": 6.1,
+      "socName": "A15",
+      "socDesigner": "Apple"
     },
     {
       "id": "iphone13ProMax",
@@ -295,7 +359,9 @@
       "generation": 15,
       "specUrl": "https://www.apple.com/iphone-13-pro/specs/",
       "presentYear": 2021,
-      "screenDiagonalInch": 6.7
+      "screenDiagonalInch": 6.7,
+      "socName": "A15",
+      "socDesigner": "Apple"
     }
   ]
 }

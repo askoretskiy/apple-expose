@@ -11,4 +11,6 @@ export interface Item {
   specUrl: string;
   presentYear: number;
   screenDiagonalInch: number;
+  socName: string;
+  socDesigner: string;
 }

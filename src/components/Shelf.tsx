@@ -21,22 +21,33 @@ export const Shelf = ({
   </Box>
 );
 
+interface ChipValue {
+  label: string;
+  title?: string;
+}
+
 const getItemChips = ({
   item,
   fields,
 }: {
   item: Item;
   fields: Set<string>;
-}): string[] => {
+}): ChipValue[] => {
   const result = [];
   if (fields.has("presentYear")) {
-    result.push(String(item.presentYear));
+    result.push({ label: String(item.presentYear) });
   }
   if (fields.has("generation") && item.generation !== null) {
-    result.push(`gen. ${item.generation}`);
+    result.push({ label: `gen. ${item.generation}` });
   }
   if (fields.has("screenDiagonalInch")) {
-    result.push(`${item.screenDiagonalInch}"`);
+    result.push({ label: `${item.screenDiagonalInch}"` });
+  }
+  if (fields.has("socName")) {
+    result.push({
+      label: item.socName,
+      title: `${item.socDesigner} ${item.socName}`,
+    });
   }
   return result;
 };
@@ -46,8 +57,8 @@ const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
     <Paper className="shelf-item">
       {item.name}
       <br />
-      {getItemChips({ item, fields }).map((label) => (
-        <Chip label={label} size="small" variant="outlined" />
+      {getItemChips({ item, fields }).map(({ label, title }) => (
+        <Chip label={label} size="small" variant="outlined" title={title} />
       ))}
     </Paper>
   </Grid>
