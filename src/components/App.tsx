@@ -26,7 +26,11 @@ export const App = ({ data }: { data: Data }) => {
       </header>
       <main>
         <Shelf data={data} fields={fields} />
-        <Filters fields={fields} toggleField={toggleField} />
+        <Filters
+          fields={fields}
+          toggleField={toggleField}
+          setFields={setFields}
+        />
       </main>
     </>
   );
