@@ -53,12 +53,17 @@ const getItemChips = ({
 };
 
 const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
-  <Grid item xs={2}>
+  <Grid item xs={3}>
     <Paper className="shelf-item">
-      {item.name}
-      <br />
+      <div className="shelf-item-header">{item.name}</div>
       {getItemChips({ item, fields }).map(({ label, title }) => (
-        <Chip label={label} size="small" variant="outlined" title={title} />
+        <Chip
+          label={label}
+          size="small"
+          variant="outlined"
+          title={title}
+          className="shelf-item-chip"
+        />
       ))}
     </Paper>
   </Grid>

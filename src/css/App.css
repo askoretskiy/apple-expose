@@ -17,3 +17,11 @@ body {
 .shelf-item {
   padding: 0.25em 0.5em;
 }
+
+.shelf-item-header {
+  margin-bottom: 0.25em;
+}
+
+.shelf-item-chip {
+  margin: 0 1px 1px 0;
+}
