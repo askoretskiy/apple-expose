@@ -1,17 +1,12 @@
 import React from "react";
+
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 
-const Fields = {
-  presentYear: "Year",
-  generation: "Generation",
-  screenDiagonalInch: "Screen",
-  socName: "SoC",
-};
-const FieldsFields = new Set(Object.keys(Fields));
+import { Fields, FieldsFields } from "./fields";
 
 const isSetEqual = (a: Set<any>, b: Set<any>): Boolean => {
   if (a.size !== b.size) {

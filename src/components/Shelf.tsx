@@ -1,9 +1,12 @@
 import React from "react";
-import { Data, Item } from "../types/data";
+
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Chip from "@mui/material/Chip";
+
+import { Data, Item } from "../types/data";
+import { getItemChips } from "./chips";
 
 export const Shelf = ({
   data,
@@ -20,37 +23,6 @@ export const Shelf = ({
     </Grid>
   </Box>
 );
-
-interface ChipValue {
-  label: string;
-  title?: string;
-}
-
-const getItemChips = ({
-  item,
-  fields,
-}: {
-  item: Item;
-  fields: Set<string>;
-}): ChipValue[] => {
-  const result = [];
-  if (fields.has("presentYear")) {
-    result.push({ label: String(item.presentYear) });
-  }
-  if (fields.has("generation") && item.generation !== null) {
-    result.push({ label: `gen. ${item.generation}` });
-  }
-  if (fields.has("screenDiagonalInch")) {
-    result.push({ label: `${item.screenDiagonalInch}"` });
-  }
-  if (fields.has("socName")) {
-    result.push({
-      label: item.socName,
-      title: `${item.socDesigner} ${item.socName}`,
-    });
-  }
-  return result;
-};
 
 const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
   <Grid item xs={3}>

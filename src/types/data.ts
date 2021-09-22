@@ -13,4 +13,5 @@ export interface Item {
   screenDiagonalInch: number;
   socName: string;
   socDesigner: string;
+  socTechProcessNm: number;
 }
