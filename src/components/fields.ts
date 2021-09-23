@@ -4,5 +4,6 @@ export const Fields = {
   screenDiagonalInch: "Screen",
   socName: "SoC",
   socTechProcessNm: "Tech. process",
+  screenTech: "Screen type",
 };
 export const FieldsFields = new Set(Object.keys(Fields));

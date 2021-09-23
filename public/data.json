@@ -10,7 +10,8 @@
       "screenDiagonalInch": 3.5,
       "socName": "S5L8900",
       "socDesigner": "Samsung",
-      "socTechProcessNm": 90
+      "socTechProcessNm": 90,
+      "screenTech": "LCD TN"
     },
     {
       "id": "iphone3g",
@@ -22,7 +23,8 @@
       "screenDiagonalInch": 3.5,
       "socName": "S5L8900",
       "socDesigner": "Samsung",
-      "socTechProcessNm": 90
+      "socTechProcessNm": 90,
+      "screenTech": "LCD TN"
     },
     {
       "id": "iphone3gs",
@@ -34,7 +36,8 @@
       "screenDiagonalInch": 3.5,
       "socName": "S5L8920",
       "socDesigner": "Samsung",
-      "socTechProcessNm": 65
+      "socTechProcessNm": 65,
+      "screenTech": "LCD TN"
     },
     {
       "id": "iphone4",
@@ -46,7 +49,8 @@
       "screenDiagonalInch": 3.5,
       "socName": "A4",
       "socDesigner": "Apple",
-      "socTechProcessNm": 45
+      "socTechProcessNm": 45,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone4s",
@@ -58,7 +62,8 @@
       "screenDiagonalInch": 3.5,
       "socName": "A5",
       "socDesigner": "Apple",
-      "socTechProcessNm": 45
+      "socTechProcessNm": 45,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone5",
@@ -70,7 +75,8 @@
       "screenDiagonalInch": 4,
       "socName": "A6",
       "socDesigner": "Apple",
-      "socTechProcessNm": 32
+      "socTechProcessNm": 32,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone5c",
@@ -82,7 +88,8 @@
       "screenDiagonalInch": 4,
       "socName": "A6",
       "socDesigner": "Apple",
-      "socTechProcessNm": 32
+      "socTechProcessNm": 32,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone5s",
@@ -94,7 +101,8 @@
       "screenDiagonalInch": 4,
       "socName": "A7",
       "socDesigner": "Apple",
-      "socTechProcessNm": 28
+      "socTechProcessNm": 28,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone6",
@@ -106,7 +114,8 @@
       "screenDiagonalInch": 4.7,
       "socName": "A8",
       "socDesigner": "Apple",
-      "socTechProcessNm": 20
+      "socTechProcessNm": 20,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone6plus",
@@ -118,7 +127,8 @@
       "screenDiagonalInch": 5.5,
       "socName": "A8",
       "socDesigner": "Apple",
-      "socTechProcessNm": 20
+      "socTechProcessNm": 20,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone6s",
@@ -130,7 +140,8 @@
       "screenDiagonalInch": 4.7,
       "socName": "A9",
       "socDesigner": "Apple",
-      "socTechProcessNm": 14
+      "socTechProcessNm": 14,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone6splus",
@@ -142,7 +153,8 @@
       "screenDiagonalInch": 5.5,
       "socName": "A9",
       "socDesigner": "Apple",
-      "socTechProcessNm": 14
+      "socTechProcessNm": 14,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphoneSe1",
@@ -154,7 +166,8 @@
       "screenDiagonalInch": 4,
       "socName": "A9",
       "socDesigner": "Apple",
-      "socTechProcessNm": 14
+      "socTechProcessNm": 14,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone7",
@@ -166,7 +179,8 @@
       "screenDiagonalInch": 4.7,
       "socName": "A10",
       "socDesigner": "Apple",
-      "socTechProcessNm": 16
+      "socTechProcessNm": 16,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone7plus",
@@ -178,7 +192,8 @@
       "screenDiagonalInch": 5.5,
       "socName": "A10",
       "socDesigner": "Apple",
-      "socTechProcessNm": 16
+      "socTechProcessNm": 16,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone8",
@@ -190,7 +205,8 @@
       "screenDiagonalInch": 4.7,
       "socName": "A11",
       "socDesigner": "Apple",
-      "socTechProcessNm": 10
+      "socTechProcessNm": 10,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone8plus",
@@ -202,7 +218,8 @@
       "screenDiagonalInch": 5.5,
       "socName": "A11",
       "socDesigner": "Apple",
-      "socTechProcessNm": 10
+      "socTechProcessNm": 10,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphoneX",
@@ -214,7 +231,8 @@
       "screenDiagonalInch": 5.8,
       "socName": "A11",
       "socDesigner": "Apple",
-      "socTechProcessNm": 10
+      "socTechProcessNm": 10,
+      "screenTech": "OLED"
     },
     {
       "id": "iphoneXR",
@@ -226,7 +244,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A12",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphoneXS",
@@ -238,7 +257,8 @@
       "screenDiagonalInch": 5.8,
       "socName": "A12",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "OLED"
     },
     {
       "id": "iphoneXSMax",
@@ -250,7 +270,8 @@
       "screenDiagonalInch": 6.5,
       "socName": "A12",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone11",
@@ -262,7 +283,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A13",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone11Pro",
@@ -274,7 +296,8 @@
       "screenDiagonalInch": 5.8,
       "socName": "A13",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone11ProMax",
@@ -286,7 +309,8 @@
       "screenDiagonalInch": 6.5,
       "socName": "A13",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "OLED"
     },
     {
       "id": "iphoneSe2",
@@ -298,7 +322,8 @@
       "screenDiagonalInch": 4.7,
       "socName": "A13",
       "socDesigner": "Apple",
-      "socTechProcessNm": 7
+      "socTechProcessNm": 7,
+      "screenTech": "LCD IPS"
     },
     {
       "id": "iphone12Mini",
@@ -310,7 +335,8 @@
       "screenDiagonalInch": 5.4,
       "socName": "A14",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone12",
@@ -322,7 +348,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A14",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone12Pro",
@@ -334,7 +361,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A14",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone12ProMax",
@@ -346,7 +374,8 @@
       "screenDiagonalInch": 6.7,
       "socName": "A14",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone13Mini",
@@ -358,7 +387,8 @@
       "screenDiagonalInch": 5.4,
       "socName": "A15",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone13",
@@ -370,7 +400,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A15",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone13Pro",
@@ -382,7 +413,8 @@
       "screenDiagonalInch": 6.1,
       "socName": "A15",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     },
     {
       "id": "iphone13ProMax",
@@ -394,7 +426,8 @@
       "screenDiagonalInch": 6.7,
       "socName": "A15",
       "socDesigner": "Apple",
-      "socTechProcessNm": 5
+      "socTechProcessNm": 5,
+      "screenTech": "OLED"
     }
   ]
 }

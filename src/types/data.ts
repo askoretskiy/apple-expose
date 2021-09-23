@@ -14,4 +14,5 @@ export interface Item {
   socName: string;
   socDesigner: string;
   socTechProcessNm: number;
+  screenTech: string;
 }

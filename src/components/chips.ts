@@ -31,5 +31,8 @@ export const getItemChips = ({
   if (fields.has("socTechProcessNm")) {
     result.push({ label: `${item.socTechProcessNm} nm` });
   }
+  if (fields.has("screenTech")) {
+    result.push({ label: item.screenTech });
+  }
   return result;
 };
