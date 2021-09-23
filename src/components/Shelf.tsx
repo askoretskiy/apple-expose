@@ -5,8 +5,8 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Chip from "@mui/material/Chip";
 
-import { Data, Item } from "../types/data";
-import { getItemChips } from "./chips";
+import { Data, Item, ChipValue } from "../types/data";
+import { getFnsForItemChips, getGetItemChips } from "./chips";
 import ExternalLink from "../img/external-link.svg";
 
 export const Shelf = ({
@@ -15,17 +15,28 @@ export const Shelf = ({
 }: {
   data: Data;
   fields: Set<string>;
-}) => (
-  <Box sx={{ flexGrow: 1 }}>
-    <Grid container spacing={2}>
-      {data.items.map((item) => (
-        <ShelfItem item={item} key={item.id} fields={fields} />
-      ))}
-    </Grid>
-  </Box>
-);
+}) => {
+  const chipFns = getFnsForItemChips(fields);
+  const getChips = getGetItemChips(chipFns);
 
-const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        {data.items.map((item) => (
+          <ShelfItem item={item} key={item.id} getChips={getChips} />
+        ))}
+      </Grid>
+    </Box>
+  );
+};
+
+const ShelfItem = ({
+  item,
+  getChips,
+}: {
+  item: Item;
+  getChips: (item: Item) => ChipValue[];
+}) => (
   <Grid item xs={3}>
     <Paper className="shelf-item">
       <div className="shelf-item-header">
@@ -38,9 +49,9 @@ const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
           />
         </a>
       </div>
-      {getItemChips({ item, fields }).map(({ key, label, title }) => (
+      {getChips(item).map(({ field, label, title }) => (
         <Chip
-          key={key}
+          key={field}
           label={label}
           size="small"
           variant="outlined"

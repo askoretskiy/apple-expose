@@ -22,3 +22,9 @@ export interface Item {
   socTechProcessNm: number;
   screenTech: string;
 }
+
+export interface ChipValue {
+  field: string;
+  label: string;
+  title?: string;
+}
