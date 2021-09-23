@@ -1,5 +1,9 @@
 export type Optional<Type> = Type | null;
 
+// could be used with Optional<T>[] -> `.filter(NotNull)` would return `T[]`
+export const NotNull = <Type>(value: Optional<Type>): value is Type =>
+  value !== null;
+
 export interface Data {
   items: Item[];
 }
