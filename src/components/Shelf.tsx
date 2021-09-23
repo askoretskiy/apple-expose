@@ -7,6 +7,7 @@ import Chip from "@mui/material/Chip";
 
 import { Data, Item } from "../types/data";
 import { getItemChips } from "./chips";
+import ExternalLink from "../img/external-link.svg";
 
 export const Shelf = ({
   data,
@@ -27,7 +28,16 @@ export const Shelf = ({
 const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
   <Grid item xs={3}>
     <Paper className="shelf-item">
-      <div className="shelf-item-header">{item.name}</div>
+      <div className="shelf-item-header">
+        {item.name}{" "}
+        <a href={item.specUrl} target="_blank" rel="noopener noreferrer">
+          <img
+            src={ExternalLink}
+            className="external-link"
+            alt="Specification"
+          />
+        </a>
+      </div>
       {getItemChips({ item, fields }).map(({ label, title }) => (
         <Chip
           label={label}
