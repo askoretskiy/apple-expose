@@ -6,6 +6,7 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 
+import { Optional } from "../types/data";
 import { Fields, FieldsFields } from "./fields";
 
 const isSetEqual = (a: Set<any>, b: Set<any>): Boolean => {
@@ -20,7 +21,7 @@ const isSetEqual = (a: Set<any>, b: Set<any>): Boolean => {
   return true;
 };
 
-const hasAllFields = (fields: Set<string>): true | false | null => {
+const hasAllFields = (fields: Set<string>): Optional<boolean> => {
   if (fields.size === 0) {
     return false;
   }
