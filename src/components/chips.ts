@@ -30,14 +30,17 @@ export const getItemChips = ({
 }): ChipValue[] => {
   const result = [];
 
-  for (const [field, fn] of Object.entries(fieldFormatter)) {
-    if (fields.has(field)) {
-      const chip = fn(item);
-      if (chip !== null) {
-        chip.key = field;
-        result.push(chip);
-      }
+  const fn_fields = Object.entries(fieldFormatter)
+    .filter(([field]) => fields.has(field))
+    .map(([field, fn]) => ({ field, chip: fn(item) }));
+
+  // TODO: Make typescript respect `filter(chip => chip !== null)`
+  for (const { field, chip } of fn_fields) {
+    if (chip === null) {
+      continue;
     }
+    chip.key = field;
+    result.push(chip);
   }
   return result;
 };
