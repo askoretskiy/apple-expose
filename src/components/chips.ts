@@ -1,9 +1,25 @@
-import { Item } from "../types/data";
+import { Optional, Item } from "../types/data";
 
 interface ChipValue {
+  key?: string;
   label: string;
   title?: string;
 }
+
+const fieldFormatter: { [key: string]: (item: Item) => Optional<ChipValue> } = {
+  presentYear: (item) => ({ label: String(item.presentYear) }),
+  generation: (item) =>
+    item.generation === null ? null : { label: `gen. ${item.generation}` },
+  screenDiagonalInch: (item: Item): Optional<ChipValue> => ({
+    label: `${item.screenDiagonalInch}"`,
+  }),
+  socName: (item) => ({
+    label: item.socName,
+    title: `${item.socDesigner} ${item.socName}`,
+  }),
+  socTechProcessNm: (item) => ({ label: `${item.socTechProcessNm} nm` }),
+  screenTech: (item) => ({ label: item.screenTech }),
+};
 
 export const getItemChips = ({
   item,
@@ -13,26 +29,14 @@ export const getItemChips = ({
   fields: Set<string>;
 }): ChipValue[] => {
   const result = [];
-  if (fields.has("presentYear")) {
-    result.push({ label: String(item.presentYear) });
-  }
-  if (fields.has("generation") && item.generation !== null) {
-    result.push({ label: `gen. ${item.generation}` });
-  }
-  if (fields.has("screenDiagonalInch")) {
-    result.push({ label: `${item.screenDiagonalInch}"` });
-  }
-  if (fields.has("socName")) {
-    result.push({
-      label: item.socName,
-      title: `${item.socDesigner} ${item.socName}`,
-    });
-  }
-  if (fields.has("socTechProcessNm")) {
-    result.push({ label: `${item.socTechProcessNm} nm` });
-  }
-  if (fields.has("screenTech")) {
-    result.push({ label: item.screenTech });
+
+  for (const [field, fn] of Object.entries(fieldFormatter)) {
+    if (fields.has(field)) {
+      const chip = fn(item);
+      if (chip !== null) {
+        result.push(chip);
+      }
+    }
   }
   return result;
 };
