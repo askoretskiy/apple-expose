@@ -38,9 +38,9 @@ const ShelfItem = ({ item, fields }: { item: Item; fields: Set<string> }) => (
           />
         </a>
       </div>
-      {getItemChips({ item, fields }).map(({ label, title }, i) => (
+      {getItemChips({ item, fields }).map(({ key, label, title }) => (
         <Chip
-          key={i}
+          key={key}
           label={label}
           size="small"
           variant="outlined"

@@ -34,6 +34,7 @@ export const getItemChips = ({
     if (fields.has(field)) {
       const chip = fn(item);
       if (chip !== null) {
+        chip.key = field;
         result.push(chip);
       }
     }
